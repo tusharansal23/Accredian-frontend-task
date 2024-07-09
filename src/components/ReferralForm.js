@@ -21,7 +21,7 @@ const ReferralForm = ({ handleClose }) => {
     }),
     onSubmit: async (values) => {
       try {
-        const response = await fetch('http://localhost:4000/api/referrals', {
+        const response = await fetch('http://localhost:10000/api/referrals', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
